@@ -1,0 +1,136 @@
+{
+ "n_images": 10015,
+ "n_lesions": 7470,
+ "columns": [
+  "lesion_id",
+  "image_id",
+  "dx",
+  "dx_type",
+  "age",
+  "sex",
+  "localization",
+  "dataset"
+ ],
+ "class_counts": {
+  "nv": 6705,
+  "mel": 1113,
+  "bkl": 1099,
+  "bcc": 514,
+  "akiec": 327,
+  "vasc": 142,
+  "df": 115
+ },
+ "lesions_multi_image": 1956,
+ "frac_lesions_multi": 0.26184738955823295,
+ "images_in_multi": 4501,
+ "frac_images_in_multi": 0.4494258612081877,
+ "max_images_per_lesion": 6,
+ "image_split_leak_frac_per_seed": {
+  "17": 0.3914128806789815,
+  "42": 0.39490763854218675,
+  "123": 0.39840239640539193,
+  "2024": 0.37044433349975037,
+  "3407": 0.39840239640539193
+ },
+ "image_split_leak_frac_mean": 0.3907139291063405,
+ "image_split_leak_frac_sd": 0.011695696826237714,
+ "image_split_leak_by_class_mean": {
+  "nv": 0.30126771066368385,
+  "mel": 0.6825112107623319,
+  "bkl": 0.5045454545454545,
+  "bcc": 0.5883495145631068,
+  "akiec": 0.4523076923076923,
+  "vasc": 0.4428571428571428,
+  "df": 0.5652173913043479
+ },
+ "grouped_split": [
+  {
+   "seed": 17,
+   "n_train": 8012,
+   "n_test": 2003,
+   "lesion_overlap": 0,
+   "test_class_frac": {
+    "nv": 0.6695,
+    "mel": 0.1113,
+    "bkl": 0.1098,
+    "bcc": 0.0514,
+    "akiec": 0.0325,
+    "vasc": 0.014,
+    "df": 0.0115
+   }
+  },
+  {
+   "seed": 42,
+   "n_train": 8011,
+   "n_test": 2004,
+   "lesion_overlap": 0,
+   "test_class_frac": {
+    "nv": 0.6692,
+    "mel": 0.1108,
+    "bkl": 0.1098,
+    "bcc": 0.0514,
+    "akiec": 0.0329,
+    "vasc": 0.0145,
+    "df": 0.0115
+   }
+  },
+  {
+   "seed": 123,
+   "n_train": 8011,
+   "n_test": 2004,
+   "lesion_overlap": 0,
+   "test_class_frac": {
+    "nv": 0.6692,
+    "mel": 0.1113,
+    "bkl": 0.1098,
+    "bcc": 0.0514,
+    "akiec": 0.0329,
+    "vasc": 0.014,
+    "df": 0.0115
+   }
+  },
+  {
+   "seed": 2024,
+   "n_train": 8012,
+   "n_test": 2003,
+   "lesion_overlap": 0,
+   "test_class_frac": {
+    "nv": 0.6695,
+    "mel": 0.1113,
+    "bkl": 0.1093,
+    "bcc": 0.0514,
+    "akiec": 0.0325,
+    "vasc": 0.0145,
+    "df": 0.0115
+   }
+  },
+  {
+   "seed": 3407,
+   "n_train": 8011,
+   "n_test": 2004,
+   "lesion_overlap": 0,
+   "test_class_frac": {
+    "nv": 0.6692,
+    "mel": 0.1113,
+    "bkl": 0.1098,
+    "bcc": 0.0514,
+    "akiec": 0.0329,
+    "vasc": 0.014,
+    "df": 0.0115
+   }
+  }
+ ],
+ "majority_class_frac": 0.6694957563654518,
+ "dx_type": {
+  "histo": 5340,
+  "follow_up": 3704,
+  "consensus": 902,
+  "confocal": 69
+ },
+ "dataset": {
+  "vidir_molemax": 3954,
+  "vidir_modern": 3363,
+  "rosendahl": 2259,
+  "vienna_dias": 439
+ }
+}
